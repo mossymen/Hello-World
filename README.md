@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Burna Boy Fan Page</title>
+  <title>Gerard Butler Fan Page</title>
   <style>
     body {
       margin: 0;
@@ -20,7 +20,7 @@
       font-size: 2.5rem;
     }
     .hero {
-      background: url('https://upload.wikimedia.org/wikipedia/commons/d/d0/Burna_Boy_2021.jpg') no-repeat center/cover;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Gerard_Butler_2016.jpg') no-repeat center/cover;
       height: 400px;
       position: relative;
     }
@@ -85,57 +85,110 @@
       font-weight: bold;
       color: #0f0;
     }
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      border: 2px solid #e50914;
+    }
+    .card h4 {
+      margin: 0 0 10px;
+      color: gold;
+    }
+    .card.silver h4 {
+      color: silver;
+    }
+    .card.bronze h4 {
+      color: #cd7f32;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #e50914;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Burna Boy Fan Page</h1>
+    <h1>Gerard Butler Fan Page</h1>
   </header>
   <div class="hero">
     <div class="hero-text">
-      <h2>The African Giant</h2>
+      <h2>The Spartan Legend</h2>
     </div>
   </div>
   <div class="content">
     <div class="section">
-      <h3>About Burna Boy</h3>
-      <p>Burna Boy, born Damini Ebunoluwa Ogulu, is a Grammy Award-winning Nigerian singer, songwriter, and performer known for hits like "Last Last," "Ye," and "Gbona." His Afro-fusion style blends Afrobeat, dancehall, reggae, and pop.</p>
+      <h3>About Gerard Butler</h3>
+      <p>Gerard Butler is a Scottish actor and film producer known for his powerful performances in action films and dramas. He rose to global fame with his role as King Leonidas in "300" and has starred in hits like "Olympus Has Fallen," "Law Abiding Citizen," and "P.S. I Love You."</p>
     </div>
     <div class="section gallery">
       <h3>Gallery</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Burna_Boy_-_Global_Citizen_Festival_South_Africa_2018_%2845743064112%29.jpg" alt="Burna Boy on stage" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Burna_Boy_Interview_2019.png" alt="Burna Boy interview" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Burna_Boy_-_Ziggo_Dome_-_2023.jpg" alt="Live concert" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Gerard_Butler_2016.jpg" alt="Gerard Butler" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Gerard_Butler_in_2019.jpg" alt="Gerard Butler 2019" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Gerard_Butler_2013.jpg" alt="Gerard Butler event" />
     </div>
     <div class="section">
-      <h3>Top Songs</h3>
+      <h3>Top Movies</h3>
       <ul>
-        <li>Last Last</li>
-        <li>Ye</li>
-        <li>Anybody</li>
-        <li>On the Low</li>
-        <li>City Boys</li>
+        <li>300</li>
+        <li>Olympus Has Fallen</li>
+        <li>P.S. I Love You</li>
+        <li>Law Abiding Citizen</li>
+        <li>London Has Fallen</li>
       </ul>
     </div>
     <div class="section">
       <h3>Follow on Social Media</h3>
       <p>
-        <a href="https://instagram.com/burnaboygram" target="_blank" style="color: #e50914;">Instagram</a> | 
-        <a href="https://twitter.com/burnaboy" target="_blank" style="color: #e50914;">Twitter</a> | 
-        <a href="https://youtube.com/user/BurnaBoyVEVO" target="_blank" style="color: #e50914;">YouTube</a>
+        <a href="https://www.instagram.com/gerardbutler/" target="_blank" style="color: #e50914;">Instagram</a> | 
+        <a href="https://twitter.com/GerardButler" target="_blank" style="color: #e50914;">Twitter</a> | 
+        <a href="https://www.youtube.com/results?search_query=gerard+butler+interview" target="_blank" style="color: #e50914;">YouTube</a>
       </p>
     </div>
     <div class="section">
-      <h3>Support the Fan Page</h3>
+      <h3>Support the Page</h3>
       <div class="payment-box">
-        <p>If you love Burna Boy and this fan page, support us with a tip via Cash App!</p>
-        <p class="cash-tag">$BurnaSupport</p>
+        <p>If you love Gerard Butler and this page, support us with a tip via Cash App!</p>
+        <p class="cash-tag">$GerardSupport</p>
         <p>Thank you for your generosity! ❤️</p>
+      </div>
+    </div>
+    <div class="section">
+      <h3>Meet & Greet Passes</h3>
+      <div class="cards">
+        <div class="card gold">
+          <h4>Gold Card</h4>
+          <p>VIP Meet & Greet + Signed Merchandise</p>
+          <a href="https://cash.app/$GerardGold" target="_blank">Pay $200</a>
+        </div>
+        <div class="card silver">
+          <h4>Silver Card</h4>
+          <p>Standard Meet & Greet + Photo Opportunity</p>
+          <a href="https://cash.app/$GerardSilver" target="_blank">Pay $150</a>
+        </div>
+        <div class="card bronze">
+          <h4>Bronze Card</h4>
+          <p>Access to Fan Q&A Session</p>
+          <a href="https://cash.app/$GerardBronze" target="_blank">Pay $100</a>
+        </div>
       </div>
     </div>
   </div>
   <footer>
-    <p>Made with ❤️ by Gerard Butler.</p>
+    <p>Made with ❤️ by Gerard Butler</p>
   </footer>
 </body>
 </html>
