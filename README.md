@@ -1,5 +1,9 @@
 <!DOCTYPE html><html lang="en">
 <head>
+  /gerard-butler-fanpage
+├── index.html ✅
+├── style.css (if any)
+├── images/ (if any)
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gerard Butler Fan Page</title>
