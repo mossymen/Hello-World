@@ -110,7 +110,7 @@
     </div>
   </div>
   <footer>
-    <p>Made with ❤️ by a true fan. Not affiliated with Gerard Butler or his team.</p>
+    <p>Made with ❤️ by Gerard Butler.</p>
   </footer>
 </body>
 </html>
